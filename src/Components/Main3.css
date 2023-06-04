@@ -1,0 +1,25 @@
+.main3{
+    height: 350px;
+    width: 100%;
+    /* border: 10px solid black; */
+    background:#111111;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot1, .foot2 ,.foot3 {
+    margin-top: 30px;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.foot1, .foot2 ,p{
+    margin-top: 20px;
+}
+.photos {
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid red; */
+   background-image: url("./gallery.jpg");
+
+}

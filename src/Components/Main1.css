@@ -1,0 +1,108 @@
+.main2{
+    height: 400px;
+    width: 100%;
+    /* border: 10px solid red; */
+}
+.main2 .heading1{
+    margin-top: 20px;
+    text-align: center;
+    height: 10%;
+    /* border:2px solid greenyellow */
+
+}
+.boxs{
+    margin-top: 20px;
+    /* border: 2px solid black; */
+    margin-left: 30px;
+    height: 88%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ .box1,.box2,.box3{
+    /* border: 5px solid blue; */
+    height:100%;
+    width: 30%;
+}
+.box1 .img1{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 40%;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.box2 .img2{
+    display: flex;
+    justify-content: center;
+    height: 40%;
+    width: 100%;
+}
+.box3 .img3{
+    display: flex;
+    justify-content: center;
+    height: 40%;
+    width: 100%;
+}
+.box1 .text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60%;
+    width: 100%;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+.box2 .text2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60%;
+    width: 100%;
+ }
+.box3 .text3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60%;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.img1 .round1{
+    background-image: url("./desk.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 32%;
+    background-color: #4782D3;
+    border-radius: 100%;
+    /* border: 2px solid blue; */
+}
+.img2 .round2{
+    background-image: url("./author.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 32%;
+    background-color: #4782D3;
+    border-radius: 100%;
+    /* border: 2px solid blue; */
+}
+.img3 .round3{
+    background-image: url("./reuse.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 32%;
+    background-color: #4782D3;
+    border-radius: 100%;
+    /* border: 2px solid blue; */
+}

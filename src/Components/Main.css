@@ -1,0 +1,27 @@
+.main1{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://img.freepik.com/free-photo/workplace-with-smartphone-laptop-black-table-top-view-copyspace-background_144627-24860.jpg");
+    line-height: -15px;
+}
+.container{
+    text-align: center;
+    color: antiquewhite;
+}
+#btn{
+    padding: 9px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    height: 50px;
+    width: 120px;
+    border: none;
+    font-size: medium;
+}
+.blueButton{
+    margin-top: 35px;
+}
